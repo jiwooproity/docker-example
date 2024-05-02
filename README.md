@@ -56,7 +56,7 @@ COPY index.js .
 CMD [ "yarn", "start" ]
 ```
 
-- entry points 명령어로 컨테이너의 애플리케이션 구동
+- ENTRY POINT: 명령어로 컨테이너의 애플리케이션 구동
 
 - 왼쪽에서 오른쪽 순서로 "'yarn'으로 'start' 스크립트 명령어를 실행하라" 라는 의미로 명령어 작성
 
